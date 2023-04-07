@@ -1,0 +1,24 @@
+{
+    "name": "lirik-le/session",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kirill",
+            "email": "kirill.lebedev258@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Session\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+
+}
